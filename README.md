@@ -50,7 +50,11 @@ Repository Root | Runtime Root
 --------------- | ------------
 bin/omniscli | /Applications/Your Omnis Runtime.app/Contents/MacOS/bin/omniscli
 startup/omniscli.lbs | /Applications/Your Omnis Runtime.app/Contents/MacOS/startup/omniscli.lbs
-run | /Applications/Your Omnis Runtime.app/Contents/MacOS/run
+
+Create this directory:
+```
+/Applications/Your Omnis Runtime.app/Contents/MacOS/run
+```
 
 The `omniscli` script needs execute permissions:
 ```bash
@@ -74,9 +78,13 @@ Copy these files to your Omnis Studio runtime distribution:
 
 Repository Root | Runtime Root
 --------------- | ------------
-Windows | bin/omniscli.ps1 | %PROGRAMFILES%\Your Company\Your Omnis Runtime\bin\omniscli.ps1
-Windows | startup/omniscli.ps1 | %PROGRAMFILES%\Your Company\Your Omnis Runtime\firstruninstall\startup\omniscli.lbs
-Windows | run | %PROGRAMFILES%\Your Company\Your Omnis Runtime\firstruninstall\run
+bin/omniscli.ps1 | %PROGRAMFILES%\Your Company\Your Omnis Runtime\bin\omniscli.ps1
+startup/omniscli.ps1 | %PROGRAMFILES%\Your Company\Your Omnis Runtime\firstruninstall\startup\omniscli.lbs
+
+Create this directory:
+```
+%PROGRAMFILES%\Your Company\Your Omnis Runtime\firstruninstall\run
+```
 
 You will need to customize the `omniscli.ps1` script to indicate the parent folder for your working files in `%LOCALAPPDATA%`. If you've customized String table 32, position 499 in your `[app]dat.dll` file, this will control the directory when Omnis copies `firstruninstall` to `%LOCALAPPDATA%`. The top of the `omniscli.ps1` script has a variable for this purpose:
 ```powershell
@@ -247,7 +255,8 @@ For example, an object with a character instance variable would be `oFoo.icBar`.
 The `omniscli` bash script follows these prefixes, but we're less strict with scripts. For example, `omniscli.ps1` does not use Hungarian notation for variables.
 
 #### Quotes
-Please use double quotes to quote literal values in Omnis code. In scripts, double-quote any variable and wrap them in `${}` to handle proper expansion.
+Please use double quotes to quote literal values in Omnis code. In scripts, double-quote any variable and wrap them in `${}`
+ to handle proper expansion.
 
 ## TODO
  * Open-source OmnisTAP so we can add the unit tests
