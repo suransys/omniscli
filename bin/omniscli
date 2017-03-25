@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+
+# Customize this variable
+lcOmnisExecutableName="Omnis"
+# End customization
+
+# Find the path to Omnis and the startup folder relative to this script, which should in the bin/ directory
+lcOmnisBin=$(dirname "$0")/../"${lcOmnisExecutableName}"
+lcRun=$(dirname "$0")/../run
+
+# Set the OMNISCLI_ARGUMENTS variable to the arguments passed to me
+export OMNISCLI_ARGUMENTS="${@}"
+
+liRetries=4
+liMaxWaits=60
+liOmnisExitStatus=1  # If Omnis doesn't overwrite this and we don't get an exit status text file, assume we failed
+
+# Work-around for extra messages from Studio 8.0
+function cleanOmnisStdErr () {
+	while read STDERR; do 
+		echo $STDERR | grep -E -v "(omnispdf/temp//\*\.pdf: No such file or directory)|(failed assertion: FSEventStream was released)|(^$)|(row number 0 is out of range 0\.\.-1)|(asio::listen)"
+	done
+}
+
+# Determine the stdout, stderr and exitstatus files
+lcStdoutFilePath="${lcRun}/stdout.txt"
+lcStderrFilePath="${lcRun}/stderr.txt"
+lcExitStatusFilePath="${lcRun}/exitstatus.txt"
+
+# Setup the run directory if it doesn't exist yet
+if [ ! -d "${lcRun}" ]; then
+	mkdir "${lcRun}"
+fi
+
+# Fire up Omnis
+while [ "${liRetries}" -gt 0 ]; do
+	# Clear the saved application state for all Suran products
+	find "${HOME}/Library/Saved Application State" -name "com.suran.*" -delete
+
+	# Clean the run directory
+	if [ -f "${lcStdoutFilePath}" ]; then
+		rm "${lcStdoutFilePath}"
+	fi
+
+	if [ -f "${lcSterrFilePath}" ]; then
+		rm "${lcSterrFilePath}"
+	fi
+
+	if [ -f "${lcExitStatusFilePath}" ]; then
+		rm "${lcExitStatusFilePath}"
+	fi
+
+	# Fire up Omnis 
+	"${lcOmnisBin}" 2> >(cleanOmnisStdErr) &
+	liOmnisPID=$!
+
+	# If the wrapper is killed, kill Omnis
+	trap "kill $liOmnisPID; if [ -f ${lcStdoutFilePath} ]; then rm ${lcStdoutFilePath}; fi; if [ -f ${lcStderrFilePath} ]; then rm ${lcStderrFilePath}; fi; echo; exit 1" SIGHUP SIGINT SIGTERM
+
+	lnWaits=0
+
+	# Safety check. If we don't get any output within $liMaxWaits, kill and re-try the build
+	while [[ "${lnWaits}" -lt "${liMaxWaits}" && ! -f "${lcStdoutFilePath}" && ! -f "${lcStderrFilePath}" && ! -f "${lcExitStatusFilePath}" ]]; do
+		sleep 1
+		let "lnWaits+=1"
+	done
+
+	# If we don't have any output files, kill the process and relaunch it
+	if [[ ! -f "${lcStdoutFilePath}" && ! -f "${lcStderrFilePath}" && ! -f "${lcExitStatusFilePath}" ]]; then
+		let "liRetries-=1"
+		
+		echo "Omnis failed to launch after ${liMaxWaits} seconds. Retries left: ${liRetries}"
+	
+		ps "${liOmnisPID}" > /dev/null
+		if [ $? -eq 0 ]; then
+			$(kill "${liOmnisPID}")
+		fi
+	else
+		liRetries=0
+	fi
+done
+
+# See if Omnis is still running
+ps ${liOmnisPID} > /dev/null
+
+if [ $? -ne 0 ]; then
+	# Output stdout if it exists
+	if [ -f "${lcStdoutFilePath}" ]; then
+		cat "${lcStdoutFilePath}"
+	fi
+	
+	# Output stderr if it exists
+	if [ -f "${lcStderrFilePath}" ]; then
+		cat "$lcStderrFilePath"
+	fi
+else
+	# Create stdout and stderr so we can tail them. Omnis may still booting so they don't exist yet.
+	# Omnis will append to these files
+	touch "${lcStdoutFilePath}"
+	touch "${lcStderrFilePath}"
+
+	# Monitor stdout and stderr from the files and pass to the shell
+	tail -n 1000 -f "${lcStdoutFilePath}" &
+	lnStdoutTailPID=$!
+	disown $lnStdoutTailPID
+
+	tail -n 1000 -f "${lcStderrFilePath}" 1>&2 &
+	lnStderrTailPID=$!
+	disown $lnStderrTailPID
+
+	# If the wrapper is killed, kill Omnis and the tails
+	trap "kill ${liOmnisPID}; if [ -f ${lcStdoutFilePath} ]; then rm ${lcStdoutFilePath}; fi; if [ -f ${lcStderrFilePath} ]; then rm ${lcStderrFilePath}; fi; kill $lnStdoutTailPID; kill $lnStderrTailPID; echo; exit 1" SIGHUP SIGINT SIGTERM
+
+	# Wait for Omnis to finish
+	wait "${liOmnisPID}"
+	liOmnisExitStatus="$?"
+
+	# Terminate the tail processes. Since we disowned them, we won't get messages that they were killed
+	kill ${lnStdoutTailPID}
+	kill ${lnStderrTailPID}
+fi
+
+# Grab the exit status and clean up the file
+# Handle the fact it might not exist if Omnis was terminated abruptly
+if [ -f "${lcExitStatusFilePath}" ]; then
+	liExitStatus=$(cat "${lcExitStatusFilePath}")
+	rm "${lcExitStatusFilePath}"
+else
+	liExitStatus="${liOmnisExitStatus}"
+fi
+
+# Clean up our stderr, stdout
+if [ -f "${lcStdoutFilePath}" ]; then
+	rm "${lcStdoutFilePath}"
+fi
+
+if [ -f "${lcStderrFilePath}" ]; then
+	rm "${lcStderrFilePath}"
+fi
+
+# Pass Omnis's return status back to the shell
+exit "${liExitStatus}"
