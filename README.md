@@ -196,7 +196,7 @@ On macOS Omnis likes to send some extra chatter to stdout. The wrapper script ha
 Once our unit-testing framework, OmnisTAP, is open-sourced and available on GitHub we'll make the unit tests for OmnisCLI available as well.
 
 ## Contributing
-Please see our [guide to contributing](suransys/contributing).
+Please see our [guide to contributing](https://github.com/suransys/contributing).
 
 ## TODO
  * Open-source OmnisTAP so we can add the unit tests
