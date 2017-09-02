@@ -196,67 +196,7 @@ On macOS Omnis likes to send some extra chatter to stdout. The wrapper script ha
 Once our unit-testing framework, OmnisTAP, is open-sourced and available on GitHub we'll make the unit tests for OmnisCLI available as well.
 
 ## Contributing
-Pull requests are more than welcome! If submitting a change in the Omnis code, please include a README.txt file noting the changes. If your pull request is approved, the maintainers will manually merge in your changes to the `omniscli.lbs` file in the repository. Once Omnis Studio 8.1 is available we'll move this repository to use the JSON version of the library for easier collaboration.
-
-### Conventions
-Suran uses several coding conventions that may be foreign to some Omnis developers. When contributing, please try to adhere to these standards.
-
-#### Protected methods and variables in Omnis
-Omnis does not natively offer a protected method or variable, which a method or variable that can be accessed by the current class or its subclasses only. In the course of adding unit tests to Omnis code, we found a need to be able to protect code like a private method does, but still invoke it from a test class, like a public method. We use an underscore to indicate a method or variable is protected:
- * `$public`
- * `$_protected`
- * `private`
-
-#### Hungarian notation
-We prefix classes and variables to indicate their type and scope.
-
-Variable Scope | Prefix
--------------- | ------
-Task | t
-Class | c
-Instance | i
-Local | l
-Parameter | p
-
-Variable Type | Prefix
-------------- | ------
-Binary | [bn]
-Boolean | b
-Character | c
-Field Reference | f[prefix for the destination variable's expected type], e.g. pfcName
-Integer | i
-Item Reference | ir
-List | l
-Number | n
-Object Reference | or
-Object | o
-Picture | [p]
-Row | r
-
-Class Type | Prefix
----------- | ------
-Code | c
-File | f
-Menu | m
-Object | o
-Query | q
-Remote Form | rf
-Remote Task | rt
-Report | r
-Schema | s
-Search | (we don't use these) 
-Table | t
-Task | k
-Toolbar | b
-Windows | w
-
-For example, an object with a character instance variable would be `oFoo.icBar`.
-
-The `omniscli` bash script follows these prefixes, but we're less strict with scripts. For example, `omniscli.ps1` does not use Hungarian notation for variables.
-
-#### Quotes
-Please use double quotes to quote literal values in Omnis code. In scripts, double-quote any variable and wrap them in `${}`
- to handle proper expansion.
+Please see our [guide to contributing](suransys/contributing).
 
 ## TODO
  * Open-source OmnisTAP so we can add the unit tests
