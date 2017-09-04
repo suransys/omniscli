@@ -199,5 +199,5 @@ Once our unit-testing framework, OmnisTAP, is open-sourced and available on GitH
 Please see our [guide to contributing](https://github.com/suransys/contributing).
 
 ## TODO
- * Open-source OmnisTAP so we can add the unit tests
+ * Add unit tests
  * Add a command-line integration test suite, perhaps using [bats](https://github.com/sstephenson/bats) on macOS and [Pester](https://github.com/pester/Pester) on Windows
