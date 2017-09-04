@@ -49,7 +49,7 @@ Copy these files to your Omnis Studio runtime distribution:
 Repository Root | Runtime Root
 --------------- | ------------
 bin/omniscli | /Applications/Your Omnis Runtime.app/Contents/MacOS/bin/omniscli
-startup/omniscli.lbs | /Applications/Your Omnis Runtime.app/Contents/MacOS/startup/omniscli.lbs
+lib/[your omnis version]/omniscli.lbs | /Applications/Your Omnis Runtime.app/Contents/MacOS/startup/omniscli.lbs
 
 Create this directory:
 ```
