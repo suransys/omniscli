@@ -1,0 +1,31 @@
+;  Get a list of methods on this instance
+Do $cinst.$methods.$makelist($ref.$name,$ref.$desc) Returns llCLIMethods
+Do $cinst.$_getSuperClassForInstance($cinst.$class()) Returns lirSuperClass
+
+While not(isnull(lirSuperClass))
+	Do lirSuperClass.$methods.$makelist($ref.$name,$ref.$desc) Returns llSuperClassMethods
+	Do llCLIMethods.$merge(llSuperClassMethods)
+	
+	Do $cinst.$_getSuperClassForInstance(lirSuperClass) Returns lirSuperClass
+End While
+
+Calculate llCLIMethods.$cols.1.$name as "Name"
+Calculate llCLIMethods.$cols.2.$name as "Description"
+Do llCLIMethods.$cols.$add("Command",kCharacter,kSimplechar,10000000000)
+
+Do llCLIMethods.$sort($ref.Name)
+
+;  Remove any method that doesn't being with $cli_
+For llCLIMethods.$line from 1 to llCLIMethods.$linecount step 1
+	Calculate lbIsCLIMethod as left(low(llCLIMethods.Name),5)="$cli_"
+	Calculate llCLIMethods.0.$selected as lbIsCLIMethod=kFalse
+	
+	;  If this is a CLI method calculate the command
+	If lbIsCLIMethod=kTrue
+		Calculate llCLIMethods.Command as mid(llCLIMethods.Name,6)
+	End If
+End For
+
+Do llCLIMethods.$remove(kListDeleteSelected)
+
+Quit method llCLIMethods

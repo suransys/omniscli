@@ -1,0 +1,2 @@
+Do $cinst.$getCLIArgument(1) Returns lcFirstArgument
+Quit method lcFirstArgument<>""

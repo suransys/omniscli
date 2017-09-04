@@ -1,0 +1,17 @@
+Calculate lcLibraryParentPath as FileOps.$parentdir($clib.$pathname)
+
+If right(lcLibraryParentPath,1)=pathsep()
+	Calculate lcLibraryParentPath as trim(lcLibraryParentPath,kFalse,kTrue,pathsep())
+End If
+
+Calculate lcStartupParentPath as FileOps.$parentdir(lcLibraryParentPath)
+If right(lcStartupParentPath,1)=pathsep()
+	Calculate lcStartupParentPath as trim(lcStartupParentPath,kFalse,kTrue,pathsep())
+End If
+
+Calculate lcPathToRun as con(lcStartupParentPath,pathsep(),"run")
+If FileOps.$doesfileexist(lcPathToRun)=kFalse
+	Do FileOps.$createdir(lcPathToRun)
+End If
+
+Quit method lcPathToRun

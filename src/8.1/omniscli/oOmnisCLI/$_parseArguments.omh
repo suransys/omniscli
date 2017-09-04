@@ -1,0 +1,29 @@
+Do llArguments.$cols.$add("Argument",kCharacter,kSimplechar,10000000)
+
+Calculate lcArgumentString as pcArgumentString
+
+While len(lcArgumentString)
+	Do strtok(nam(lcArgumentString)," ") Returns lcArgument
+	
+	If lcArgument=kSq
+		Do strtok(nam(lcArgumentString)," ") Returns lcArgument
+		Calculate lcArgument as con(kSq," ",lcArgument)
+	End If
+	
+	If left(lcArgument,1)=kSq&right(lcArgument,1)<>kSq
+		Calculate lcPreArgument as lcArgument
+		
+		Do strtok(nam(lcArgumentString),kSq) Returns lcArgument
+		Calculate lcArgumentString as mid(lcArgumentString,2)
+		
+		Calculate lcArgument as con(lcPreArgument," ",lcArgument)
+	End If
+	
+	Do llArguments.$add(trim(lcArgument,kTrue,kTrue,kSq))
+	
+	If lcArgumentString=kSq
+		Calculate lcArgumentString as ""
+	End If
+End While
+
+Quit method llArguments

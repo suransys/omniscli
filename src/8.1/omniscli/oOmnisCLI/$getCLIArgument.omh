@@ -1,0 +1,8 @@
+If not(isclear(_ilArguments.$colcount))     ;; Lazy load
+	Quit method _ilArguments.[piArgument].Argument
+End If
+
+Do $cinst.$_getArgumentString() Returns lcArgumentString
+Do $cinst.$_parseArguments(lcArgumentString) Returns _ilArguments
+
+Quit method _ilArguments.[piArgument].Argument

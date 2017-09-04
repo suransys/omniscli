@@ -1,0 +1,25 @@
+;  Get the command
+Do $cinst.$getCLICommand() Returns lcCLICommand
+If isclear(lcCLICommand)
+	Quit method $cinst.$kOmnisCLINoCommand()
+End If
+
+;  See if the command is a valid method
+Do $cinst.$_getCLIMethods() Returns llCLIMethods
+Do llCLIMethods.$search($ref.Command=lcCLICommand,1,0,0,0) Returns llCLIMethods.$line
+If isclear(llCLIMethods.$line)
+	Quit method $cinst.$kOmnisCLICommandNotFound()
+End If
+
+;  Run the method for the command
+Do $cinst.[llCLIMethods.Name]() Returns liExitStatus
+
+;  If we're instructed to keep Omnis open, bail
+If liExitStatus=$cinst.$kOmnisCLIKeepOmnisOpen()
+	Quit method liExitStatus
+End If
+
+;  Output the exit code and quit
+Do $cinst.$_writeExitStatus(liExitStatus)
+
+Do $cinst.$quitOmnis()

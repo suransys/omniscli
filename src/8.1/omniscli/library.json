@@ -1,0 +1,60 @@
+{
+	"omnisversion": "8.1",
+	"includes": [
+
+	],
+	"properties": {
+		"extension": false,
+		"ignoreexternal": false,
+		"nodebug": false,
+		"userinfo": "",
+		"vcsbuilddate": {
+			"type": 23,
+			"subtype": 7,
+			"data": "2017-08-18 09:40:53"
+		},
+		"vcsbuildersname": "",
+		"vcsbuildnotes": ""
+	},
+	"prefs": {
+		"canfocusbuttons": "kPlatformdefault",
+		"centuryrange": 1980,
+		"defaultname": "",
+		"designdpi": "96,72,75",
+		"designdpimode": "kDPIoff",
+		"designedscreensizes": "kSSZjs320x480Portrait,kSSZjs768x1024Portrait",
+		"disabledefaultcontextmenu": false,
+		"disableellipsis": false,
+		"disablewebservicelogging": false,
+		"exportcontrolcharacters": false,
+		"exportedquotes": true,
+		"fiscalyearend": "1900-12-31 00:00:00",
+		"fontscale": false,
+		"helpfoldername": "",
+		"hscale": 0,
+		"iconlib": "",
+		"iconset": "",
+		"initiallayoutbreakpoints": "320,768,1024",
+		"javareturnsnative": true,
+		"justifiedtextthreshold": 75,
+		"keyevents": false,
+		"mouseevents": false,
+		"reportcalculationerrors": true,
+		"reportnotationerrors": true,
+		"rmouseevents": false,
+		"screencoordinates": false,
+		"sensitivefieldnames": false,
+		"sensitivefilenames": true,
+		"serverlessclientstringtable": "",
+		"sharedpictures": "kSharedPicModeNone",
+		"sqlstripspaces": true,
+		"startuptaskname": "Startup_Task",
+		"statusevents": false,
+		"uniquefieldnames": false,
+		"userexportdelimiter": ";",
+		"v3events": false,
+		"vscale": 0,
+		"weekstart": "kMonday",
+		"windowsizeexcludesdockingarea": true
+	}
+}

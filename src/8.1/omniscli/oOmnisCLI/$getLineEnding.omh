@@ -1,0 +1,5 @@
+If $cinst.$_isMacVersion()
+	Quit method kLf
+End If
+
+Quit method con(kCr,kLf)

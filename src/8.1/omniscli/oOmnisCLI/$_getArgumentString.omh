@@ -1,0 +1,6 @@
+Calculate lcOmnisCLIArguments as getenv("OMNISCLI_ARGUMENTS")
+If isclear(lcOmnisCLIArguments)
+	Quit method
+End If
+
+Quit method lcOmnisCLIArguments

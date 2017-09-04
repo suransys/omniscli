@@ -1,0 +1,12 @@
+Calculate lcSuperClass as pirSuperClass().$superclass
+If isclear(lcSuperClass)
+	Quit method #NULL
+End If
+
+If pos(".",lcSuperClass)>0
+	Do strtok(nam(lcSuperClass),".") Returns lcLibrary
+Else
+	Calculate lcLibrary as pirSuperClass().$lib().$name
+End If
+
+Quit method $libs.$findname(lcLibrary).$classes.$findname(lcSuperClass)

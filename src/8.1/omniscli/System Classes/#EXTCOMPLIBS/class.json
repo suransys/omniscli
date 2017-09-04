@@ -1,0 +1,34 @@
+{
+	"classtype": "kSystemtable",
+	"internalversion": 5,
+	"properties": {
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2016-12-23 06:51:26",
+		"desc": "",
+		"external": true,
+		"moddate": "2017-04-12 10:49:26",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": 14
+	},
+	"libs": [
+		"Calendar Library",
+		"Clock Library",
+		"Cool DropList Library",
+		"Document Viewer Library",
+		"FORMROLL Library",
+		"FadePict Library",
+		"Flic Library",
+		"Gif Library",
+		"HOTPICT Library",
+		"IconArray Library",
+		"PicList Library",
+		"Sidebar Library",
+		"SpreadSheet Grid Library",
+		"Stix Library",
+		"TabBar Library",
+		"Tooltip Library",
+		"TransButton Library",
+		"Transform Library"
+	]
+}

@@ -1,0 +1,1 @@
+Quit method con(chr(27),"[01;33m")

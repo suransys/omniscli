@@ -1,0 +1,1 @@
+Do $cinst.$_writeToConsole(piExitStatus,kFalse,$cinst.$_getPathToExitStatus())

@@ -1,0 +1,33 @@
+{
+	"classtype": "kObjectclass",
+	"internalversion": 195,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "_ilArguments",
+			"order": 3,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2017-01-10 19:24:54",
+		"desc": "",
+		"designtaskname": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2017-03-25 17:15:00",
+		"selfcontained": false,
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": 11
+	}
+}

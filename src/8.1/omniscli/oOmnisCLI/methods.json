@@ -1,0 +1,816 @@
+[
+	{
+		"name": "$==OmnisCLI Public==",
+		"ident": 2,
+		"order": 1,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$getCLIArgument",
+		"ident": 3,
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "piArgument",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lcArgumentString",
+				"order": 5,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$getCLICommand",
+		"ident": 49,
+		"order": 3,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcCLICommand",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$isRunningFromCLI",
+		"ident": 4,
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcFirstArgument",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$processCLICommand",
+		"ident": 5,
+		"order": 6,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcCLICommand",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "liExitStatus",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0
+			},
+			{
+				"name": "llCLIMethods",
+				"order": 3,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$quitOmnis",
+		"ident": 48,
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "liExitStatus",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$==Stdout/Stderr==",
+		"ident": 17,
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$getLineEnding",
+		"ident": 15,
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$writeStderr",
+		"ident": 20,
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pcMessage",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pbAddTrailingNewline",
+				"order": 2,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 2,
+				"initval": "kTrue"
+			},
+			{
+				"name": "pbForceLeadingNewline",
+				"order": 3,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 3,
+				"initval": "kTrue"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$writeStdout",
+		"ident": 21,
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pcMessage",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pbAddTrailingNewline",
+				"order": 2,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 2,
+				"initval": "kTrue"
+			},
+			{
+				"name": "pbForceLeadingNewline",
+				"order": 3,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 3,
+				"initval": "kTrue"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$==OmnisCLI Constants==",
+		"ident": 0,
+		"order": 14,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kOmnisCLICommandNotFound",
+		"ident": 45,
+		"order": 15,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kOmnisCLIKeepOmnisOpen",
+		"ident": 16,
+		"order": 16,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kOmnisCLINoCommand",
+		"ident": 12,
+		"order": 17,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$==Console Colors==",
+		"ident": 47,
+		"order": 18,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kBlack",
+		"ident": 23,
+		"order": 19,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kBlue",
+		"ident": 24,
+		"order": 20,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kBrown",
+		"ident": 29,
+		"order": 21,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kCyan",
+		"ident": 26,
+		"order": 22,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kDarkGray",
+		"ident": 31,
+		"order": 23,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kGreen",
+		"ident": 25,
+		"order": 24,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kLightBlue",
+		"ident": 32,
+		"order": 25,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kLightCyan",
+		"ident": 34,
+		"order": 26,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kLightGray",
+		"ident": 30,
+		"order": 27,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kLightGreen",
+		"ident": 33,
+		"order": 28,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kLightRed",
+		"ident": 35,
+		"order": 29,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kPurple",
+		"ident": 28,
+		"order": 30,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kRed",
+		"ident": 27,
+		"order": 31,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kReset",
+		"ident": 38,
+		"order": 32,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kWhite",
+		"ident": 37,
+		"order": 33,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$kYellow",
+		"ident": 36,
+		"order": 34,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$==OmnisCLI Private==",
+		"ident": 1,
+		"order": 35,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_getArgumentString",
+		"ident": 6,
+		"order": 36,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcOmnisCLIArguments",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$_getCLIMethods",
+		"ident": 7,
+		"order": 37,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lbIsCLIMethod",
+				"order": 6,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0
+			},
+			{
+				"name": "lcLibrary",
+				"order": 5,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcSuperClass",
+				"order": 4,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lirSuperClass",
+				"order": 2,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "llCLIMethods",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "llSuperClassMethods",
+				"order": 3,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$_getSuperClassForInstance",
+		"ident": 8,
+		"order": 38,
+		"pvardefs": [
+			{
+				"name": "pirSuperClass",
+				"order": 1,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lcLibrary",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcSuperClass",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$_isDevelopmentVersion",
+		"ident": 22,
+		"order": 39,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_isMacVersion",
+		"ident": 14,
+		"order": 40,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_parseArguments",
+		"ident": 9,
+		"order": 41,
+		"pvardefs": [
+			{
+				"name": "pcArgumentString",
+				"order": 5,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lcArgument",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcArgumentString",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcPreArgument",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "llArguments",
+				"order": 4,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$_getPathToExitStatus",
+		"ident": 39,
+		"order": 42,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_getPathToRun",
+		"ident": 40,
+		"order": 43,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcLibraryParentPath",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcPathToRun",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcStartupParentPath",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$_getPathToStdout",
+		"ident": 41,
+		"order": 44,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_getPathToStderr",
+		"ident": 42,
+		"order": 45,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$_writeToConsole",
+		"ident": 44,
+		"order": 46,
+		"pvardefs": [
+			{
+				"name": "pcMessage",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pbAddTrailingNewline",
+				"order": 2,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 2,
+				"initval": "kTrue"
+			},
+			{
+				"name": "pcConsoleFilePath",
+				"order": 5,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 3
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "loConsoleFile",
+				"order": 4,
+				"type": "kObject",
+				"subtype": ".FileOps.FileOps",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$_writeExitStatus",
+		"ident": 10,
+		"order": 47,
+		"desc": "Test getting the path to the returncode file",
+		"pvardefs": [
+			{
+				"name": "piExitStatus",
+				"order": 2,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1,
+				"initval": "#NULL"
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$==CLI Methods==",
+		"ident": 11,
+		"order": 48,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$cli_help",
+		"ident": 13,
+		"order": 49,
+		"desc": "Output details about available commands and exits",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+			{
+				"name": "lcUsage",
+				"order": 3,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "liMaximumLength",
+				"order": 2,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0
+			},
+			{
+				"name": "lirSuperClass",
+				"order": 4,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "llCLIMethods",
+				"order": 1,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			},
+			{
+				"name": "llSuperClassMethods",
+				"order": 5,
+				"type": "kList",
+				"subtype": "",
+				"sublen": 0
+			}
+		]
+	},
+	{
+		"name": "$cli_omnis_version",
+		"ident": 46,
+		"order": 50,
+		"desc": "Returns the Omnis version",
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]
