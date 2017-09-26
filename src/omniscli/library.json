@@ -1,7 +1,7 @@
 {
-	"omnisversion": "8.1",
+	"omnisversion": "8.1.1",
 	"includes": [
-
+		"OMNISTAP"
 	],
 	"properties": {
 		"extension": false,
@@ -11,7 +11,7 @@
 		"vcsbuilddate": {
 			"type": 23,
 			"subtype": 7,
-			"data": "2017-08-18 09:40:53"
+			"data": "2017-09-20 11:21:58"
 		},
 		"vcsbuildersname": "",
 		"vcsbuildnotes": ""
