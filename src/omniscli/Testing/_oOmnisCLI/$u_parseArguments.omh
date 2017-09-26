@@ -1,0 +1,35 @@
+Do $cinst.$when("arguments are empty")
+
+Do llExpectedArguments.$cols.$add("Argument",kCharacter,kSimplechar,1000000000)
+
+Do iorMock.$_parseArguments("") Returns llArguments
+Do ioTAP.$is_list(llArguments,llExpectedArguments,"We get no arguments")
+
+Do $cinst.$when("there is one argument")
+
+Do llExpectedArguments.$add("foo")
+
+Do iorMock.$_parseArguments("foo") Returns llArguments
+Do ioTAP.$is_list(llArguments,llExpectedArguments,"We get the argument")
+
+Do $cinst.$when("there are two arguments")
+
+Do llExpectedArguments.$add("bar")
+
+Do iorMock.$_parseArguments("foo bar") Returns llArguments
+Do ioTAP.$is_list(llArguments,llExpectedArguments,"We get the arguments")
+
+Do $cinst.$when("there is one quoted argument")
+
+Do llExpectedArguments.$clear()
+Do llExpectedArguments.$add("foo bar")
+
+Do iorMock.$_parseArguments("'foo bar'") Returns llArguments
+Do ioTAP.$is_list(llArguments,llExpectedArguments,"We get the argument")
+
+Do $cinst.$when("there is are two quoted arguments")
+
+Do llExpectedArguments.$add("baz biff")
+
+Do iorMock.$_parseArguments("'foo bar' 'baz biff'") Returns llArguments
+Do ioTAP.$is_list(llArguments,llExpectedArguments,"We get the arguments")

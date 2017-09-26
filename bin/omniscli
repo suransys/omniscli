@@ -8,8 +8,15 @@ lcOmnisExecutableName="Omnis"
 lcOmnisBin=$(dirname "$0")/../"${lcOmnisExecutableName}"
 lcRun=$(dirname "$0")/../run
 
-# Set the OMNISCLI_ARGUMENTS variable to the arguments passed to me
-export OMNISCLI_ARGUMENTS="${@}"
+# Extract the first argument, which is the command
+OMNISCLI_ARGUMENTS="$1"
+
+# Set the OMNISCLI_ARGUMENTS variable to command followed by the remaining arguments wrapped in single quotes
+shift
+
+for argument in "${@}"; do
+	export OMNISCLI_ARGUMENTS="${OMNISCLI_ARGUMENTS} '${argument}'"
+done
 
 liRetries=4
 liMaxWaits=60
