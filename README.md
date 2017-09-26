@@ -20,7 +20,7 @@ help | Displays available commands
 omnis_version | Returns the Omnis Runtime version
 
 ## Requirements
- * Omnis Studio 8.0.x
+ * Omnis Studio 8.1.x
  * macOS 10.9+ (tested with bash shell)
  * Windows 7+ (requires Powershell)
 
