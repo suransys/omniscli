@@ -2,7 +2,7 @@
 $ErrorActionPreference = "Stop"
 
 # Customize this variable
-${localappdata_company_directory} = "Suran"
+${localappdata_company_directory} = "Omnis Software"
 # End customization
 
 function usage {
@@ -15,15 +15,16 @@ if (${args}.Length -lt 2) {
     usage
 }
 
-# Check path to Omnis
-${path_to_omnis}, ${omniscli_args} = ${args}
+# Check path to Omnis and get the command
+${path_to_omnis}, ${command}, ${omniscli_args} = ${args}
 if (-not (Test-Path ${path_to_omnis})) {
     Write-Host "${path_to_omnis} is not a valid path"
     usage
 }
 
-# Build omniscli arguments
-$env:OMNISCLI_ARGUMENTS = ${omniscli_args} -join " "
+# Build omniscli arguments, quoted
+${quoted_args} = "'" + ${omniscli_args} -join "' '" + "'"
+$env:OMNISCLI_ARGUMENTS = ${command} + ' ' + ${quoted_args}
 
 # Get paths
 ${omnis_directory} = Split-Path -parent ${path_to_omnis}
