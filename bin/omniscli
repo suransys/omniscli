@@ -15,8 +15,10 @@ OMNISCLI_ARGUMENTS="$1"
 shift
 
 for argument in "${@}"; do
-	export OMNISCLI_ARGUMENTS="${OMNISCLI_ARGUMENTS} '${argument}'"
+	OMNISCLI_ARGUMENTS="${OMNISCLI_ARGUMENTS} '${argument}'"
 done
+
+export OMNISCLI_ARGUMENTS
 
 liRetries=4
 liMaxWaits=60
