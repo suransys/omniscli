@@ -1,16 +1,16 @@
 {
 	"classtype": "kSystemtable",
-	"internalversion": 22,
+	"internalversion": 24,
 	"nextident": 386,
 	"properties": {
 		"componenttype": "kCompStoreHidden",
 		"createdate": "2016-12-23 06:51:26",
 		"desc": "",
 		"external": true,
-		"moddate": "2017-08-18 09:40:00",
+		"moddate": "2017-09-27 08:34:00",
 		"showascheckedout": false,
 		"userinfo": "",
-		"version": 122
+		"version": 123
 	},
 	"styles": [
 		{
@@ -3267,6 +3267,7 @@
 		{
 			"name": "CtrlEditTextDisabled",
 			"ident": 321,
+			"objtype": "kEntry",
 			"properties": {
 				"desc": "",
 				"hasalign": false,
@@ -3281,6 +3282,12 @@
 				"hasforecolor": false,
 				"hastextcolor": false
 			},
+			"customproperties": [
+				{
+					"name": "enabled",
+					"type": 4
+				}
+			],
 			"platforms": [
 				{
 					"name": "kmacOS",
@@ -3296,6 +3303,9 @@
 						"fontstyle": "kPlain",
 						"forecolor": "RGB(0,0,0)",
 						"textcolor": "RGB(0,0,0)"
+					},
+					"custompropertyvalues": {
+						"enabled": true
 					}
 				},
 				{
@@ -3312,6 +3322,9 @@
 						"fontstyle": "kPlain",
 						"forecolor": "RGB(0,0,0)",
 						"textcolor": "RGB(0,0,0)"
+					},
+					"custompropertyvalues": {
+						"enabled": true
 					}
 				},
 				{
@@ -3328,6 +3341,28 @@
 						"fontstyle": "kPlain",
 						"forecolor": "RGB(0,0,0)",
 						"textcolor": "RGB(0,0,0)"
+					},
+					"custompropertyvalues": {
+						"enabled": false
+					}
+				},
+				{
+					"name": "kUnix",
+					"properties": {
+						"align": "",
+						"backcolor": "RGB(0,0,0)",
+						"backgroundtheme": "kBGThemeNone",
+						"backpattern": 0,
+						"bordercolor": "RGB(0,0,0)",
+						"effect": "kBorderNone",
+						"fontname": "",
+						"fontsize": 0,
+						"fontstyle": "kPlain",
+						"forecolor": "RGB(0,0,0)",
+						"textcolor": "RGB(0,0,0)"
+					},
+					"custompropertyvalues": {
+						"enabled": false
 					}
 				}
 			]
