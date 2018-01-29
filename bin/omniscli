@@ -15,7 +15,7 @@ if [ -d "$(dirname "$0")/../firstruninstall" ]; then
 		application_data_parent_folder="Omnis"
 	fi
 
-	# Get the application bundle names
+	# Get the application bundle name
 	application_name=$(basename $(cd "$0/../../../.."; pwd))
 	application_name=${application_name/.app/}
 
