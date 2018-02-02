@@ -5,25 +5,28 @@ lcOmnisExecutableName="Omnis"
 # End customization
 
 # Find the path to Omnis and the startup folder relative to this script, which should in the bin/ directory
-lcOmnisBin=$(dirname "$0")/../"${lcOmnisExecutableName}"
+lcPathToBinDirectory=$(dirname "$0")
+lcMacOS=$(cd "${lcPathToBinDirectory}/.."; pwd)
+lcOmnisBin="${lcMacOS}/${lcOmnisExecutableName}"
 
-# Locate the run directory. This will vary if we're using per-user application data (Studio 8.1+) 
-if [ -d "$(dirname "$0")/../firstruninstall" ]; then
+# Locate the run directory. This will vary if we're using per-user application data (Studio 8.1+)
+if [ -d "${lcMacOS}/firstruninstall" ]; then
         # Grab CORE_RES_25599 from Localization.string. Fall back to "Omnis" if not found
-        application_data_parent_folder=$(grep CORE_RES_25599 $(dirname "$0")/../../Resources/English.lproj/Localizable.strings | cut -d '"' -f 4)
+        strings_path="${lcMacOS}/../Resources/English.lproj/Localizable.strings"
+        application_data_parent_folder=$(grep CORE_RES_25599 "${strings_path}" | cut -d '"' -f 4)
         if [ "${application_data_parent_folder}" == "" ]; then
                 application_data_parent_folder="Omnis"
         fi
 
         # Get the application bundle names
-        application_directory=$(cd "$(dirname $0)/../../.."; pwd)
+        application_directory=$(cd "${lcMacOS}/../.."; pwd)
         application_bundle_name=$(basename "${application_directory}")
         application_name=${application_bundle_name/.app/}
 
         # Build the path to run in the application support folder for this application
         lcRun="$(echo $HOME)/Library/Application Support/${application_data_parent_folder}/${application_name}/run"
 else
-        lcRun=$(dirname "$0")/../run
+        lcRun="${lcMacOS}/run"
 fi
 
 # Extract the first argument, which is the command
