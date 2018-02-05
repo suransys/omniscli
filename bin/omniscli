@@ -59,7 +59,7 @@ lcExitStatusFilePath="${lcRun}/exitstatus.txt"
 
 # Setup the run directory if it doesn't exist yet
 if [ ! -d "${lcRun}" ]; then
-	mkdir "${lcRun}"
+	mkdir -p "${lcRun}"
 fi
 
 # Fire up Omnis
