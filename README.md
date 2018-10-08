@@ -116,6 +116,8 @@ C:\> powershell.exe -Command "& "${env:PROGRAMFILES}\Your Company\Your Omnis Run
 Wrap arguments with spaces in them with single quotes.
 
 ## Integration
+**NOTE:** OmnisCLI will not respond to commands directly since it does not implement `Startup_Task` code to process the CLI arguments. Instead, itegrate OmnisCLI with your app and call it from there. You can also use the included `x_demo.lbs` library to test your installation.
+
 There are two steps to integrating OmnisCLI into your app. First, you need to sub-class `omniscli.oOmnisCLI` and add methods for your commands. Second, you need to instantiate your OmnisCLI object and process any command line input. This is usually performed during your default task's `$construct`.
 
 ### Adding methods

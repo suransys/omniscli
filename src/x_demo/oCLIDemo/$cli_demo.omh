@@ -1,0 +1,4 @@
+Do $cinst.$writeStdout("Hello from the CLI demo")
+Do $cinst.$writeStdout(con("You passed in: ",$cinst.$getCLIArgument(2)))
+
+Quit method 0

@@ -1,0 +1,6 @@
+Do $objects.oCLIDemo.$newref() Returns lorCLI
+If lorCLI.$isRunningFromCLI()=kTrue
+	Do lorCLI.$processCLICommand()
+	Quit method
+End If
+Do lorCLI.$deleteref()
