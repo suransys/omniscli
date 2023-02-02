@@ -75,7 +75,7 @@ function flushStream ([System.IO.StreamReader]${file_stream}, [System.IO.StreamW
     while (-not ${file_stream}.EndOfStream) {
         ${output}.Write([char]${file_stream}.Read())
     }
-    ${output}.Flush()
+    ${output}.Flush() 
 }
 
 function flushConsole {
