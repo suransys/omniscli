@@ -2,10 +2,10 @@
 	"classtype": "kSystemtable",
 	"omnisversion": "11.0",
 	"omnisbuild": 110035659,
-	"internalversion": 3,
+	"internalversion": 2,
 	"properties": {
 		"componenttype": "kCompStoreHidden",
-		"createdate": "2018-10-08 11:59:33",
+		"createdate": "2023-10-16 06:26:25",
 		"desc": "",
 		"external": false,
 		"moddate": "2023-10-16 06:26:25",
@@ -14,11 +14,15 @@
 		"vcsrevision": 0,
 		"version": ""
 	},
-	"fonts": [
-		"Monaco",
-		"Courier",
-		"Helvetica",
-		"Geneva",
-		"Times New Roman"
+	"formats": [
+		"(###) ###-####",
+		"(###) ###-#### Ext(#####)",
+		"(####) ######",
+		"(####) ###### Ext.###",
+		"#### #### #### ####",
+		"###-###-###",
+		"aa ## ## ## a",
+		"##-aaa-##",
+		"##-aaa-####"
 	]
 }

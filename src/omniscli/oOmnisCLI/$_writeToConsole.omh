@@ -1,17 +1,17 @@
-;  Add trailing newline
+# Add trailing newline
 If pbAddTrailingNewline=kTrue
 	Calculate pcMessage as con(pcMessage,$cinst.$getLineEnding())
 End If
 
-;  Create or open the file
+# Create or open the file
 If FileOps.$doesfileexist(pcConsoleFilePath)
 	Do loConsoleFile.$openfile(pcConsoleFilePath)
 Else
 	Do loConsoleFile.$createfile(pcConsoleFilePath)
 End If
 
-;  Write to the file
+# Write to the file
 Do loConsoleFile.$writecharacter(kUniTypeAnsiLatin1,pcMessage,kTrue)
 
-;  Close file
+# Close file
 Do loConsoleFile.$close()

@@ -1,4 +1,4 @@
-If $cinst.$_isDevelopmentVersion()     ;; In development close the task instead of quitting
+If $cinst.$_isDevelopmentVersion() ## In development close the task instead of quitting
 	Do $ctask.$close()
 	Quit method liExitStatus
 End If

@@ -5,20 +5,24 @@
 	"internalversion": 2,
 	"properties": {
 		"componenttype": "kCompStoreHidden",
-		"createdate": "2018-10-08 11:59:33",
+		"createdate": "2023-10-16 06:26:15",
 		"desc": "",
 		"external": false,
-		"moddate": "2018-10-08 11:59:33",
+		"moddate": "2023-10-16 06:26:16",
 		"showascheckedout": false,
 		"userinfo": "",
 		"vcsrevision": 0,
 		"version": ""
 	},
-	"fonts": [
-		"Arial",
-		"Courier New",
-		"Times New Roman",
-		"Omnis Windows System",
-		"System"
+	"formats": [
+		"(###) ###-####",
+		"(###) ###-#### Ext(#####)",
+		"(####) ######",
+		"(####) ###### Ext.###",
+		"#### #### #### ####",
+		"###-###-###",
+		"aa ## ## ## a",
+		"##-aaa-##",
+		"##-aaa-####"
 	]
 }

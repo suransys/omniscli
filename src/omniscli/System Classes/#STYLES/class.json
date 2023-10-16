@@ -1,15 +1,18 @@
 {
 	"classtype": "kSystemtable",
-	"internalversion": 24,
+	"omnisversion": "11.0",
+	"omnisbuild": 110035659,
+	"internalversion": 26,
 	"nextident": 386,
 	"properties": {
 		"componenttype": "kCompStoreHidden",
 		"createdate": "2016-12-23 06:51:26",
 		"desc": "",
 		"external": true,
-		"moddate": "2017-09-27 08:34:00",
+		"moddate": "2023-10-16 06:26:16",
 		"showascheckedout": false,
 		"userinfo": "",
+		"vcsrevision": 0,
 		"version": 123
 	},
 	"styles": [
@@ -34,7 +37,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -50,7 +53,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -66,7 +69,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -82,7 +85,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -118,7 +121,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -134,7 +137,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -150,7 +153,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -166,7 +169,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -202,7 +205,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -218,7 +221,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -234,7 +237,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -250,7 +253,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -286,7 +289,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -302,7 +305,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -318,7 +321,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -334,7 +337,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -370,7 +373,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -386,7 +389,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -402,7 +405,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -418,7 +421,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -454,7 +457,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -470,7 +473,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -486,7 +489,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -502,7 +505,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -538,7 +541,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -554,7 +557,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -570,7 +573,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -586,7 +589,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -622,7 +625,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -638,7 +641,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -654,7 +657,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -670,7 +673,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -706,7 +709,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -722,7 +725,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -738,7 +741,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -754,7 +757,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -790,7 +793,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -806,7 +809,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -822,7 +825,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -838,7 +841,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -874,7 +877,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -890,7 +893,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -906,7 +909,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -922,7 +925,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -958,7 +961,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -974,7 +977,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -990,7 +993,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1006,7 +1009,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1042,7 +1045,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1058,7 +1061,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1074,7 +1077,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1090,7 +1093,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1133,7 +1136,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1152,7 +1155,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1171,7 +1174,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1190,7 +1193,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1229,7 +1232,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1245,7 +1248,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1261,7 +1264,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1277,7 +1280,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1313,7 +1316,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1329,7 +1332,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1345,7 +1348,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1361,7 +1364,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1397,7 +1400,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1413,7 +1416,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1429,7 +1432,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1445,7 +1448,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1481,7 +1484,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1497,7 +1500,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1513,7 +1516,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 15,
@@ -1529,7 +1532,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1576,7 +1579,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1596,7 +1599,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1616,7 +1619,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1636,7 +1639,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1676,7 +1679,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1692,7 +1695,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1708,7 +1711,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1724,7 +1727,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1760,7 +1763,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1776,7 +1779,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1792,7 +1795,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1808,7 +1811,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1844,7 +1847,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1860,7 +1863,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1876,7 +1879,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1892,7 +1895,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -1928,7 +1931,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1944,7 +1947,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -1960,7 +1963,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -1976,7 +1979,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -2019,7 +2022,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": 2,
+						"align": "kCenterJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2038,7 +2041,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(255,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 15,
@@ -2057,7 +2060,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2076,7 +2079,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(255,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 15,
@@ -2115,7 +2118,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -2131,7 +2134,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -2147,7 +2150,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -2163,7 +2166,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -2214,7 +2217,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -2235,7 +2238,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2256,7 +2259,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2277,7 +2280,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2318,7 +2321,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2334,7 +2337,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2350,7 +2353,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2386,7 +2389,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2402,7 +2405,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2418,7 +2421,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2454,7 +2457,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 1,
@@ -2470,7 +2473,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 1,
@@ -2486,7 +2489,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 1,
@@ -2522,7 +2525,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2538,7 +2541,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2554,7 +2557,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2590,7 +2593,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2606,7 +2609,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2622,7 +2625,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2638,7 +2641,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2674,7 +2677,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -2690,7 +2693,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2706,7 +2709,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -2742,7 +2745,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2758,7 +2761,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2774,7 +2777,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2810,7 +2813,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2826,7 +2829,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2842,7 +2845,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2878,7 +2881,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2894,7 +2897,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2910,7 +2913,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2926,7 +2929,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2969,7 +2972,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -2988,7 +2991,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3007,7 +3010,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3026,7 +3029,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3065,7 +3068,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3081,7 +3084,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3097,7 +3100,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3133,7 +3136,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3149,7 +3152,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3165,7 +3168,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3181,7 +3184,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3217,7 +3220,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3233,7 +3236,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3249,7 +3252,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3292,7 +3295,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -3305,13 +3308,13 @@
 						"textcolor": "RGB(0,0,0)"
 					},
 					"custompropertyvalues": {
-						"enabled": true
+						"enabled": false
 					}
 				},
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -3324,13 +3327,13 @@
 						"textcolor": "RGB(0,0,0)"
 					},
 					"custompropertyvalues": {
-						"enabled": true
+						"enabled": false
 					}
 				},
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -3343,13 +3346,13 @@
 						"textcolor": "RGB(0,0,0)"
 					},
 					"custompropertyvalues": {
-						"enabled": false
+						"enabled": true
 					}
 				},
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3362,7 +3365,7 @@
 						"textcolor": "RGB(0,0,0)"
 					},
 					"custompropertyvalues": {
-						"enabled": false
+						"enabled": true
 					}
 				}
 			]
@@ -3388,7 +3391,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3404,7 +3407,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3420,7 +3423,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3456,7 +3459,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -3472,7 +3475,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -3488,7 +3491,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3504,7 +3507,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -3540,7 +3543,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -3556,7 +3559,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -3572,7 +3575,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3588,7 +3591,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeWindow",
 						"backpattern": 0,
@@ -3624,7 +3627,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3640,7 +3643,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3656,7 +3659,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3672,7 +3675,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3708,7 +3711,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3724,7 +3727,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3740,7 +3743,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3756,7 +3759,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3792,7 +3795,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3808,7 +3811,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3824,7 +3827,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3840,7 +3843,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -3876,7 +3879,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3892,7 +3895,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3908,7 +3911,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3924,7 +3927,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -3971,7 +3974,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -3991,7 +3994,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4011,7 +4014,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4031,7 +4034,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4082,7 +4085,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4102,7 +4105,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4122,7 +4125,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4142,7 +4145,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4182,7 +4185,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -4198,7 +4201,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4214,7 +4217,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -4230,7 +4233,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -4277,7 +4280,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4291,13 +4294,13 @@
 					},
 					"custompropertyvalues": {
 						"height": 13,
-						"enabled": true
+						"enabled": false
 					}
 				},
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -4311,13 +4314,13 @@
 					},
 					"custompropertyvalues": {
 						"height": 13,
-						"enabled": true
+						"enabled": false
 					}
 				},
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4331,13 +4334,13 @@
 					},
 					"custompropertyvalues": {
 						"height": 13,
-						"enabled": true
+						"enabled": false
 					}
 				},
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4351,7 +4354,7 @@
 					},
 					"custompropertyvalues": {
 						"height": 13,
-						"enabled": true
+						"enabled": false
 					}
 				}
 			]
@@ -4377,7 +4380,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4393,7 +4396,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4409,7 +4412,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4425,7 +4428,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -4461,7 +4464,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4477,7 +4480,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4493,7 +4496,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4529,7 +4532,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4545,7 +4548,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4561,7 +4564,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4597,7 +4600,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4613,7 +4616,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4629,7 +4632,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4665,7 +4668,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4681,7 +4684,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4697,7 +4700,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4733,7 +4736,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4749,7 +4752,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4765,7 +4768,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4801,7 +4804,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4817,7 +4820,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4833,7 +4836,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4869,7 +4872,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4885,7 +4888,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4901,7 +4904,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4937,7 +4940,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4953,7 +4956,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -4969,7 +4972,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5005,7 +5008,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5021,7 +5024,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5037,7 +5040,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5073,7 +5076,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5089,7 +5092,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5105,7 +5108,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5121,7 +5124,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5157,7 +5160,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5173,7 +5176,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5189,7 +5192,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5205,7 +5208,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5241,7 +5244,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5257,7 +5260,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5273,7 +5276,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5289,7 +5292,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5325,7 +5328,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5341,7 +5344,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5357,7 +5360,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5393,7 +5396,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5409,7 +5412,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5425,7 +5428,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5441,7 +5444,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5477,7 +5480,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5493,7 +5496,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5509,7 +5512,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5525,7 +5528,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5561,7 +5564,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5577,7 +5580,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5593,7 +5596,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeControl",
 						"backpattern": 0,
@@ -5640,7 +5643,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -5660,7 +5663,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -5680,7 +5683,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5700,7 +5703,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5740,7 +5743,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5776,7 +5779,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5812,7 +5815,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5848,7 +5851,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5884,7 +5887,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5920,7 +5923,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -5963,7 +5966,7 @@
 				{
 					"name": "kMSWindows",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -5982,7 +5985,7 @@
 				{
 					"name": "kUnix",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 0,
@@ -6001,7 +6004,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeParent",
 						"backpattern": 15,
@@ -6020,7 +6023,7 @@
 				{
 					"name": "kJavaScript",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "kWhite",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 15,
@@ -6059,7 +6062,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6095,7 +6098,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6131,7 +6134,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6167,7 +6170,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6203,7 +6206,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6239,7 +6242,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6275,7 +6278,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,
@@ -6311,7 +6314,7 @@
 				{
 					"name": "kmacOS",
 					"properties": {
-						"align": "",
+						"align": "kLeftJst",
 						"backcolor": "RGB(0,0,0)",
 						"backgroundtheme": "kBGThemeNone",
 						"backpattern": 0,

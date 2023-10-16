@@ -1,18 +1,17 @@
 [
 	{
 		"name": "$==OmnisCLI Public==",
-		"ident": 2,
 		"order": 1,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
 
-		]
+		],
+		"empty": true
 	},
 	{
 		"name": "$getCLIArgument",
-		"ident": 3,
 		"order": 2,
 		"pvardefs": [
 			{
@@ -36,7 +35,6 @@
 	},
 	{
 		"name": "$getCLICommand",
-		"ident": 49,
 		"order": 3,
 		"pvardefs": [
 
@@ -53,7 +51,6 @@
 	},
 	{
 		"name": "$isRunningFromCLI",
-		"ident": 4,
 		"order": 5,
 		"pvardefs": [
 
@@ -70,7 +67,6 @@
 	},
 	{
 		"name": "$processCLICommand",
-		"ident": 5,
 		"order": 6,
 		"pvardefs": [
 
@@ -101,7 +97,6 @@
 	},
 	{
 		"name": "$quitOmnis",
-		"ident": 48,
 		"order": 7,
 		"pvardefs": [
 
@@ -118,18 +113,17 @@
 	},
 	{
 		"name": "$==Stdout/Stderr==",
-		"ident": 17,
 		"order": 8,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
 
-		]
+		],
+		"empty": true
 	},
 	{
 		"name": "$getLineEnding",
-		"ident": 15,
 		"order": 9,
 		"pvardefs": [
 
@@ -140,7 +134,6 @@
 	},
 	{
 		"name": "$writeStderr",
-		"ident": 20,
 		"order": 12,
 		"pvardefs": [
 			{
@@ -176,7 +169,6 @@
 	},
 	{
 		"name": "$writeStdout",
-		"ident": 21,
 		"order": 13,
 		"pvardefs": [
 			{
@@ -212,18 +204,17 @@
 	},
 	{
 		"name": "$==OmnisCLI Constants==",
-		"ident": 0,
 		"order": 14,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
 
-		]
+		],
+		"empty": true
 	},
 	{
 		"name": "$kOmnisCLICommandNotFound",
-		"ident": 45,
 		"order": 15,
 		"pvardefs": [
 
@@ -234,7 +225,6 @@
 	},
 	{
 		"name": "$kOmnisCLIKeepOmnisOpen",
-		"ident": 16,
 		"order": 16,
 		"pvardefs": [
 
@@ -245,7 +235,6 @@
 	},
 	{
 		"name": "$kOmnisCLINoCommand",
-		"ident": 12,
 		"order": 17,
 		"pvardefs": [
 
@@ -256,18 +245,17 @@
 	},
 	{
 		"name": "$==Console Colors==",
-		"ident": 47,
 		"order": 18,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
 
-		]
+		],
+		"empty": true
 	},
 	{
 		"name": "$kBlack",
-		"ident": 23,
 		"order": 19,
 		"pvardefs": [
 
@@ -278,7 +266,6 @@
 	},
 	{
 		"name": "$kBlue",
-		"ident": 24,
 		"order": 20,
 		"pvardefs": [
 
@@ -289,7 +276,6 @@
 	},
 	{
 		"name": "$kBrown",
-		"ident": 29,
 		"order": 21,
 		"pvardefs": [
 
@@ -300,7 +286,6 @@
 	},
 	{
 		"name": "$kCyan",
-		"ident": 26,
 		"order": 22,
 		"pvardefs": [
 
@@ -311,7 +296,6 @@
 	},
 	{
 		"name": "$kDarkGray",
-		"ident": 31,
 		"order": 23,
 		"pvardefs": [
 
@@ -322,7 +306,6 @@
 	},
 	{
 		"name": "$kGreen",
-		"ident": 25,
 		"order": 24,
 		"pvardefs": [
 
@@ -333,7 +316,6 @@
 	},
 	{
 		"name": "$kLightBlue",
-		"ident": 32,
 		"order": 25,
 		"pvardefs": [
 
@@ -344,7 +326,6 @@
 	},
 	{
 		"name": "$kLightCyan",
-		"ident": 34,
 		"order": 26,
 		"pvardefs": [
 
@@ -355,7 +336,6 @@
 	},
 	{
 		"name": "$kLightGray",
-		"ident": 30,
 		"order": 27,
 		"pvardefs": [
 
@@ -366,7 +346,6 @@
 	},
 	{
 		"name": "$kLightGreen",
-		"ident": 33,
 		"order": 28,
 		"pvardefs": [
 
@@ -377,7 +356,6 @@
 	},
 	{
 		"name": "$kLightRed",
-		"ident": 35,
 		"order": 29,
 		"pvardefs": [
 
@@ -388,7 +366,6 @@
 	},
 	{
 		"name": "$kPurple",
-		"ident": 28,
 		"order": 30,
 		"pvardefs": [
 
@@ -399,7 +376,6 @@
 	},
 	{
 		"name": "$kRed",
-		"ident": 27,
 		"order": 31,
 		"pvardefs": [
 
@@ -410,7 +386,6 @@
 	},
 	{
 		"name": "$kReset",
-		"ident": 38,
 		"order": 32,
 		"pvardefs": [
 
@@ -421,7 +396,6 @@
 	},
 	{
 		"name": "$kWhite",
-		"ident": 37,
 		"order": 33,
 		"pvardefs": [
 
@@ -432,7 +406,6 @@
 	},
 	{
 		"name": "$kYellow",
-		"ident": 36,
 		"order": 34,
 		"pvardefs": [
 
@@ -443,18 +416,17 @@
 	},
 	{
 		"name": "$==OmnisCLI Private==",
-		"ident": 1,
 		"order": 35,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
 
-		]
+		],
+		"empty": true
 	},
 	{
 		"name": "$_getArgumentString",
-		"ident": 6,
 		"order": 36,
 		"pvardefs": [
 
@@ -471,7 +443,6 @@
 	},
 	{
 		"name": "$_getCLIMethods",
-		"ident": 7,
 		"order": 37,
 		"pvardefs": [
 
@@ -523,7 +494,6 @@
 	},
 	{
 		"name": "$_getSuperClassForInstance",
-		"ident": 8,
 		"order": 38,
 		"pvardefs": [
 			{
@@ -554,7 +524,6 @@
 	},
 	{
 		"name": "$_isDevelopmentVersion",
-		"ident": 22,
 		"order": 39,
 		"pvardefs": [
 
@@ -565,7 +534,6 @@
 	},
 	{
 		"name": "$_isMacVersion",
-		"ident": 14,
 		"order": 40,
 		"pvardefs": [
 
@@ -576,7 +544,6 @@
 	},
 	{
 		"name": "$_parseArguments",
-		"ident": 9,
 		"order": 41,
 		"pvardefs": [
 			{
@@ -621,7 +588,6 @@
 	},
 	{
 		"name": "$_getPathToExitStatus",
-		"ident": 39,
 		"order": 42,
 		"pvardefs": [
 
@@ -632,7 +598,6 @@
 	},
 	{
 		"name": "$_getPathToRun",
-		"ident": 40,
 		"order": 43,
 		"pvardefs": [
 
@@ -663,7 +628,6 @@
 	},
 	{
 		"name": "$_getPathToStdout",
-		"ident": 41,
 		"order": 44,
 		"pvardefs": [
 
@@ -674,7 +638,6 @@
 	},
 	{
 		"name": "$_getPathToStderr",
-		"ident": 42,
 		"order": 45,
 		"pvardefs": [
 
@@ -685,7 +648,6 @@
 	},
 	{
 		"name": "$_writeToConsole",
-		"ident": 44,
 		"order": 46,
 		"pvardefs": [
 			{
@@ -726,7 +688,6 @@
 	},
 	{
 		"name": "$_writeExitStatus",
-		"ident": 10,
 		"order": 47,
 		"desc": "Test getting the path to the returncode file",
 		"pvardefs": [
@@ -746,18 +707,17 @@
 	},
 	{
 		"name": "$==CLI Methods==",
-		"ident": 11,
 		"order": 48,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
 
-		]
+		],
+		"empty": true
 	},
 	{
 		"name": "$cli_help",
-		"ident": 13,
 		"order": 49,
 		"desc": "Output details about available commands and exits",
 		"pvardefs": [
@@ -803,7 +763,6 @@
 	},
 	{
 		"name": "$cli_omnis_version",
-		"ident": 46,
 		"order": 50,
 		"desc": "Returns the Omnis version",
 		"pvardefs": [

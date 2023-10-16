@@ -1,6 +1,8 @@
 {
 	"classtype": "kTask",
-	"internalversion": 4,
+	"omnisversion": "11.0",
+	"omnisbuild": 110035659,
+	"internalversion": 5,
 	"superclass": "omnistap.kgTAPTask",
 	"tvardefs": [
 
@@ -12,8 +14,12 @@
 
 	],
 	"properties": {
+		"canremotedebugwhenlocked": false,
 		"collectperformancedata": false,
 		"componenticon": 0,
+		"componentinfo": {
+
+		},
 		"componenttype": "kCompStoreHidden",
 		"createdate": "2017-09-26 16:52:18",
 		"desc": "",
@@ -24,6 +30,7 @@
 		"moddate": "2017-09-26 16:57:00",
 		"showascheckedout": false,
 		"userinfo": "",
+		"vcsrevision": 0,
 		"version": 1
 	}
 }

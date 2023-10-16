@@ -1,7 +1,6 @@
 [
 	{
 		"name": "$cli_demo",
-		"ident": 3,
 		"order": 4,
 		"desc": "Demo command",
 		"pvardefs": [

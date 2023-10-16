@@ -1,6 +1,8 @@
 {
 	"classtype": "kTask",
-	"internalversion": 5,
+	"omnisversion": "11.0",
+	"omnisbuild": 110035659,
+	"internalversion": 7,
 	"tvardefs": [
 
 	],
@@ -11,8 +13,12 @@
 
 	],
 	"properties": {
+		"canremotedebugwhenlocked": false,
 		"collectperformancedata": false,
 		"componenticon": 0,
+		"componentinfo": {
+
+		},
 		"componenttype": "kCompStoreHidden",
 		"createdate": "2018-10-08 11:59:33",
 		"desc": "",
@@ -20,9 +26,10 @@
 		"editordata": "",
 		"external": false,
 		"issupercomponent": false,
-		"moddate": "2018-10-08 12:01:08",
+		"moddate": "2023-10-16 06:30:20",
 		"showascheckedout": false,
 		"userinfo": "",
+		"vcsrevision": 0,
 		"version": ""
 	}
 }

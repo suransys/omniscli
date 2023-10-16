@@ -1,12 +1,12 @@
 Do $cinst.$_getCLIMethods() Returns llCLIMethods
 
-;  Find the longest method name
+# Find the longest method name
 Do llCLIMethods.$cols.$add("Length",kInteger,k32bitint)
 Do llCLIMethods.$sendall($ref.Length.$assign(len(llCLIMethods.Command)))
 
 Calculate liMaximumLength as llCLIMethods.$cols.Length.$maximum()
 
-;  Send each method to the shell
+# Send each method to the shell
 For llCLIMethods.$line from 1 to llCLIMethods.$linecount step 1
 	Calculate lcUsage as llCLIMethods.Command
 	

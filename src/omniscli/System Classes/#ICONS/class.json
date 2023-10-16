@@ -1,6 +1,8 @@
 {
 	"classtype": "kSystemtable",
-	"internalversion": 5,
+	"omnisversion": "11.0",
+	"omnisbuild": 110035659,
+	"internalversion": 6,
 	"iconversion": 0,
 	"nextident": 43,
 	"properties": {
@@ -8,9 +10,10 @@
 		"createdate": "2016-12-23 06:51:26",
 		"desc": "",
 		"external": true,
-		"moddate": "2016-06-09 15:25:00",
+		"moddate": "2023-10-16 06:26:16",
 		"showascheckedout": false,
 		"userinfo": "",
+		"vcsrevision": 0,
 		"version": 99
 	},
 	"iconids": [
