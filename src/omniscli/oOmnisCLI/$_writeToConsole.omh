@@ -14,4 +14,4 @@ End If
 Do loConsoleFile.$writecharacter(kUniTypeAnsiLatin1,pcMessage,kTrue)
 
 # Close file
-Do loConsoleFile.$close()
+Do loConsoleFile.$closefile()

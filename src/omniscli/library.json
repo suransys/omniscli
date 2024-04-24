@@ -1,6 +1,6 @@
 {
 	"omnisversion": "11.0",
-	"omnisbuild": 110035659,
+	"omnisbuild": 110036251,
 	"includes": [
 		"OMNISTAP"
 	],
@@ -23,6 +23,7 @@
 		"canfocusbuttons": "kPlatformdefault",
 		"centuryrange": 1980,
 		"defaultname": "",
+		"defineresolvesfieldrefs": false,
 		"designdpi": "96,72,75",
 		"designdpimode": "kDPIoff",
 		"designedscreensizes": "kSSZjs320x480Portrait,kSSZjs768x1024Portrait",
