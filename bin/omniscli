@@ -48,7 +48,7 @@ liOmnisExitStatus=1  # If Omnis doesn't overwrite this and we don't get an exit 
 # Work-around for extra messages from Studio 8.0
 function cleanOmnisStdErr () {
 	while read STDERR; do 
-		echo $STDERR | grep -E -v "(omnispdf/temp//\*\.pdf: No such file or directory)|(failed assertion: FSEventStream was released)|(^$)|(row number 0 is out of range 0\.\.-1)|(asio::listen)|(DevTools listening)|(CoreText note)"
+		echo $STDERR | grep -E -v "(omnispdf/temp//\*\.pdf: No such file or directory)|(failed assertion: FSEventStream was released)|(^$)|(row number 0 is out of range 0\.\.-1)|(asio::listen)|(DevTools listening)|(CoreText note)(RTLD_LAZY)"
 	done
 }
 
