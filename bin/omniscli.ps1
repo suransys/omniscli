@@ -23,7 +23,7 @@ if (-not (Test-Path ${path_to_omnis})) {
 }
 
 # Build omniscli arguments, quoted
-${quoted_args} = "'" + ${omniscli_args} -join "' '" + "'"
+${quoted_args} = "'" + (${omniscli_args} -join "' '") + "'"
 $env:OMNISCLI_ARGUMENTS = ${command} + ' ' + ${quoted_args}
 
 # Get paths
