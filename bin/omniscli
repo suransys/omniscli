@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
 # Customize this variable
-lcOmnisExecutableName="Omnis"
+if uname -v | grep -i "darwin" &> /dev/null; then
+	lcOmnisExecutableName="Omnis"
+else
+	lcOmnisExecutableName="homnis"
+fi
 # End customization
 
 # Find the path to Omnis and the startup folder relative to this script, which should in the bin/ directory
