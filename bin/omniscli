@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-# Customize this variable
+# Customize these variables
 if uname -v | grep -i "darwin" &> /dev/null; then
 	lcOmnisExecutableName="Omnis"
 else
 	lcOmnisExecutableName="homnis"
 fi
+
+saved_application_state_identifier="com.suran.*"
 # End customization
 
 # Find the path to Omnis and the startup folder relative to this script, which should in the bin/ directory
@@ -16,7 +18,7 @@ lcOmnisBin="${lcMacOS}/${lcOmnisExecutableName}"
 # Locate the run directory. This will vary if we're using per-user application data (Studio 8.1+)
 if [ -d "${lcMacOS}/firstruninstall" ]; then
         # Grab CORE_RES_25599 from Localization.string. Fall back to "Omnis" if not found
-        strings_path="${lcMacOS}/../Resources/English.lproj/Localizable.strings"
+        strings_path="${lcMacOS}/../Resources/en.lproj/Localizable.strings"
         application_data_parent_folder=$(grep CORE_RES_25599 "${strings_path}" | cut -d '"' -f 4)
         if [ "${application_data_parent_folder}" == "" ]; then
                 application_data_parent_folder="Omnis"
@@ -52,7 +54,7 @@ liOmnisExitStatus=1  # If Omnis doesn't overwrite this and we don't get an exit 
 # Work-around for extra messages from Studio
 function cleanOmnisStdErr () {
 	while read STDERR; do 
-		echo $STDERR | grep -E -v "(omnispdf/temp//\*\.pdf: No such file or directory)|(failed assertion: FSEventStream was released)|(^$)|(row number 0 is out of range 0\.\.-1)|(asio::listen)|(DevTools listening)|(CoreText note)(RTLD_LAZY)|(Lazy loading ow3 on Catalina)|(prctl: Invalid argument \(22\))"
+		echo $STDERR | grep -E -v "(omnispdf/temp//\*\.pdf: No such file or directory)|(failed assertion: FSEventStream was released)|(^$)|(row number 0 is out of range 0\.\.-1)|(asio::listen)|(DevTools listening)|(CoreText note)|(NSApplicationDelegate.applicationSupportsSecureRestorableState)|(RTLD_LAZY)|(Lazy loading ow3 on Catalina)"
 	done
 }
 
@@ -70,7 +72,7 @@ fi
 while [ "${liRetries}" -gt 0 ]; do
 	# Clear the saved application state for all Suran products
 	if [ -d "${HOME}/Library/Saved Application State" ]; then
-		find "${HOME}/Library/Saved Application State" -name "com.suran.*" -delete
+		find "${HOME}/Library/Saved Application State" -name "${saved_application_state_identifier}" -delete
 	fi
 
 	# Clean the run directory
